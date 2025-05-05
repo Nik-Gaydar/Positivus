@@ -1,4 +1,4 @@
-@use 'media' as *;
+@use '../base/media';
 
 .container {
   max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
@@ -22,7 +22,7 @@
 // скроет элемент на мобильных устройствах при определенныом медиа-запросе
 
 .hidden-mobile {
-  @include mobile {
+  @include media.mobile {
     display: none !important;
   }
 }
@@ -30,7 +30,7 @@
 // Отобразит элемент на мобильных, но скроет на экранах больше
 
 .visible-mobile {
-  @include mobile-above {
+  @include media.mobile-above {
     display: none !important;
   }
 }

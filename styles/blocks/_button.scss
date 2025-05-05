@@ -1,7 +1,7 @@
-@use 'mixins' as *;
+@use '../base/mixins';
 
 .button {
-  @include flex-center(true);
+  @include mixins.flex-center(true);
 
   height: var(--button-height);
 }
