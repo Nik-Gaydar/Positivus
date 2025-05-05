@@ -1,0 +1,7 @@
+@use 'mixins' as *;
+
+.button {
+  @include flex-center(true);
+
+  height: var(--button-height);
+}
