@@ -1,0 +1,7 @@
+@use '../base/mixins';
+
+.button {
+  @include mixins.flex-center(true);
+
+  height: var(--button-height);
+}
