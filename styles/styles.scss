@@ -2,5 +2,6 @@
 @use 'blocks';
 @use 'utils';
 
-@use './blocks/header';
 @use './blocks/button';
+@use './blocks/burger-button';
+@use './blocks/header';
